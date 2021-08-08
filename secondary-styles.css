@@ -1,0 +1,138 @@
+body {
+    background-color: #121111;
+    font-family: 'Open Sans';
+
+}
+
+article {
+    color: #fefefe;
+    padding-top: 300px;
+    padding-right: 100px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media (max-width: 480px) {
+    article {
+        padding: 50px !important;
+    }
+}
+
+/* Navbar */
+
+.navbar_fixed {
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+
+}
+
+.navbar-custom {
+    background-color: #121111 !important;
+    border-bottom: 1px solid #fefefe;
+    height: 100px;
+}
+
+.nav-link {
+    font-family: "Open Sans";
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #ff5abc !important;
+}
+
+@media (min-width: 567px) {
+    .abs-center-x {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.navbar-brand {
+    font-family: 'Oswald';
+    font-size: 2.4rem;
+    color: #fefefe;
+}
+
+.nav-item {
+    float: none;
+    text-align: center;
+}
+
+/* body section */
+
+.music-link {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.music-link:hover {
+    color: #ff5abc;
+}
+
+.bio-pic {
+    max-width: 35vw;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+/* Footer Area */
+
+.logo-img {
+    height: 100px;
+}
+
+.text-follow {
+    font-family: 'Oswald';
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 1.8rem;
+    padding: 2%;
+}
+
+.text-follow:hover {
+    color: #ff5abc;
+}
+
+footer.footer-area {
+    padding: 5rem 0;
+    color: #fefefe;
+
+}
+
+footer.footer-area.social h5 {
+    font: normal 500 23px/ 30px var(--OpenSans);
+}
+
+.media-icon {
+    font-size: 2rem;
+    padding: 2%;
+    color: #fefefe;
+}
+
+.media-icon:hover {
+    color: #ff5abc;
+}
+
+.copyrights {
+    font-size: 0.8rem;
+}
+
+.signature {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.signature:hover {
+    color: #ff5abc;
+}
+
+/* End Footer */
